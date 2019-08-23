@@ -1,0 +1,8 @@
+<jdbcConnection>用于填写驱动用户名密码和url
+<javaTypeResolver>
+<javaModelGenerator>生成java模型targetpackage
+<sqlMapperGenerator>
+<javaClientGenerator>生成java interface
+<table>
+逆向工程之后如何让Spring知道Mapper的存在？
+需要在启动类上添加@MapperScan，并且在application.yml中加入mapper-location配置信息还有前缀名
